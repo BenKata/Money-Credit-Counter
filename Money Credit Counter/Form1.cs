@@ -38,9 +38,21 @@ namespace Money_Credit_Counter
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
-        { 
-            
-            
+        {
+
+            if (creditcost == 0) // If statement checking if the credit per cost has been entered
+            {
+                MessageBox.Show("Please enter the amount of credit"); // If not, shows this message
+            }
+            else // Otherwise
+            {
+
+                Total_pence += 1; // adds 1p to the total pence value
+                Total_Pound += 0.01; // adds 1p to the total pound value 
+                count_1p += 1; // adds 1 to the count of the coin
+            }
+
+
 
         }
 
