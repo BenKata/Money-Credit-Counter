@@ -79,7 +79,9 @@ namespace Money_Credit_Counter
 
         private void btn_Credit_Click(object sender, EventArgs e)
         {
-            
+            int.TryParse(My_Dialogs.InputBox("Please enter the credit: "), out creditcost); // Opens a inputbox from the My_Dialogs class asking for the Cost per credit
+            lbl_Costcredit.Text = creditcost.ToString(); //Sets the label to the inputted cost per credit
+
         }
 
         private void btn_5p_Click(object sender, EventArgs e)
