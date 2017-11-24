@@ -50,6 +50,11 @@ namespace Money_Credit_Counter
                 Total_pence += 1; // adds 1p to the total pence value
                 Total_Pound += 0.01; // adds 1p to the total pound value 
                 count_1p += 1; // adds 1 to the count of the coin
+
+                lbl_1p.Text = count_1p.ToString(); // displays the count on the label for the coin
+                txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
+                txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
             }
 
 
