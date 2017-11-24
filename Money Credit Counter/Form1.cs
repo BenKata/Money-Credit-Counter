@@ -189,9 +189,12 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
         }
-        private void btn_reset_Click(object sender, EventArgs e) 
+        private void btn_reset_Click(object sender, EventArgs e) // Instead of resetting all the variables and textboxes to 0
         {
-           
+            Form1 NewForm = new Form1(); //Creates a copy of the blank form
+            NewForm.Show(); // Shows the newly created form
+            this.Dispose(false); // Deletes the old form
+
         }
     }
 }
