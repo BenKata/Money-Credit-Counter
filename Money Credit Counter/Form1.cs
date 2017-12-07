@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyDialogs;
+/// <summary>
+/// Ben Kata B7013694 Assignment 1  for Dr Peter O'Neill
+/// </summary>
+
 
 namespace Money_Credit_Counter
 {

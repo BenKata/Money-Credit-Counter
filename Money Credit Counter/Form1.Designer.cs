@@ -631,6 +631,7 @@
             this.txt_numofcredit.Name = "txt_numofcredit";
             this.txt_numofcredit.Size = new System.Drawing.Size(49, 20);
             this.txt_numofcredit.TabIndex = 4;
+            this.txt_numofcredit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label10
             // 
