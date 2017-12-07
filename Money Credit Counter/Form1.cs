@@ -55,13 +55,14 @@ namespace Money_Credit_Counter
                 Total_pence += 1; // adds 1p to the total pence value
                 Total_Pound += 0.01m; // adds 1p to the total pound value 
                 count_1p += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_1p.Text = count_1p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+            
 
         }
 
@@ -77,13 +78,14 @@ namespace Money_Credit_Counter
                 Total_pence += 2; // adds 2p to the total pence value
                 Total_Pound += 0.02m; // adds 2p to the total pound value 
                 count_2p += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_2p.Text = count_2p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+            
         }
 
         private void btn_Credit_Click(object sender, EventArgs e)
@@ -105,13 +107,14 @@ namespace Money_Credit_Counter
                 Total_pence += 5; // adds 5p to the total pence value
                 Total_Pound += 0.05m; // adds 5p to the total pound value 
                 count_5p += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_5p.Text = count_5p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+           
         }
 
         private void btn_10p_Click(object sender, EventArgs e)
@@ -126,13 +129,14 @@ namespace Money_Credit_Counter
                 Total_pence += 10; // adds 10p to the total pence value
                 Total_Pound += 0.10m; // adds 10p to the total pound value 
                 count_10p += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_10p.Text = count_10p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+            
         }
 
         private void btn_20p_Click(object sender, EventArgs e)
@@ -147,13 +151,14 @@ namespace Money_Credit_Counter
                 Total_pence += 20; // adds 20p to the total pence value
                 Total_Pound += 0.20m; // adds 20p to the total pound value 
                 count_20p += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_20p.Text = count_20p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+           
         }
 
         private void btn_50p_Click(object sender, EventArgs e)
@@ -168,13 +173,14 @@ namespace Money_Credit_Counter
                 Total_pence += 50; // adds 50p to the total pence value
                 Total_Pound += 0.50m; // adds 50p to the total pound value 
                 count_50p += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_50p.Text = count_50p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+            
         }
         private void btn_1pound_Click(object sender, EventArgs e)
         {
@@ -188,13 +194,14 @@ namespace Money_Credit_Counter
                 Total_pence += 100; // adds 100p to the total pence value
                 Total_Pound += 1.00m; // adds £1 to the total pound value 
                 count_1pound += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
             lbl_1pound.Text = count_1pound.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+            
 
 
 
@@ -211,13 +218,14 @@ namespace Money_Credit_Counter
                 Total_pence += 200; // adds 200p to the total pence value
                 Total_Pound += 2.00m; // adds £2 to the total pound value 
                 count_2pound += 1; // adds 1 to the count of the coin
+                credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+                txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
             }
+
             lbl_2pound.Text = count_2pound.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
-
-            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
-            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
+            
 
         }
         private void btn_reset_Click(object sender, EventArgs e) // Instead of resetting all the variables and textboxes to 0
