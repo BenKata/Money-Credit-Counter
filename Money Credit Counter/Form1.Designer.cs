@@ -492,7 +492,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
             this.pictureBox16.Location = new System.Drawing.Point(142, 6);
             this.pictureBox16.Name = "pictureBox16";
@@ -503,7 +503,7 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(126, 74);
             this.pictureBox15.Name = "pictureBox15";
@@ -514,7 +514,7 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(142, 169);
             this.pictureBox14.Name = "pictureBox14";
@@ -525,7 +525,7 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.Location = new System.Drawing.Point(133, 237);
             this.pictureBox13.Name = "pictureBox13";
@@ -536,7 +536,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(140, 329);
             this.pictureBox12.Name = "pictureBox12";
@@ -559,7 +559,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(142, 501);
             this.pictureBox10.Name = "pictureBox10";
@@ -570,7 +570,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(125, 582);
             this.pictureBox9.Name = "pictureBox9";

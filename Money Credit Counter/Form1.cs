@@ -25,6 +25,7 @@ namespace Money_Credit_Counter
         int count_1pound = 0;
         int count_2pound = 0;
         int creditcost;
+        int credit;
 
 
 
@@ -55,7 +56,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
 
         }
 
@@ -75,6 +77,9 @@ namespace Money_Credit_Counter
             lbl_2p.Text = count_2p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
         }
 
         private void btn_Credit_Click(object sender, EventArgs e)
@@ -100,6 +105,9 @@ namespace Money_Credit_Counter
             lbl_5p.Text = count_5p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
         }
 
         private void btn_10p_Click(object sender, EventArgs e)
@@ -118,6 +126,9 @@ namespace Money_Credit_Counter
             lbl_10p.Text = count_10p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
         }
 
         private void btn_20p_Click(object sender, EventArgs e)
@@ -136,6 +147,9 @@ namespace Money_Credit_Counter
             lbl_20p.Text = count_20p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
         }
 
         private void btn_50p_Click(object sender, EventArgs e)
@@ -154,6 +168,9 @@ namespace Money_Credit_Counter
             lbl_50p.Text = count_50p.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
         }
         private void btn_1pound_Click(object sender, EventArgs e)
         {
@@ -171,6 +188,12 @@ namespace Money_Credit_Counter
             lbl_1pound.Text = count_1pound.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
+
+        
+            
         }
         private void btn_2pound_Click(object sender, EventArgs e)
         {
@@ -188,6 +211,10 @@ namespace Money_Credit_Counter
             lbl_2pound.Text = count_2pound.ToString(); // displays the count on the label for the coin
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
+
+            credit = Total_pence / creditcost;
+            txt_numofcredit.Text = credit.ToString();
+
         }
         private void btn_reset_Click(object sender, EventArgs e) // Instead of resetting all the variables and textboxes to 0
         {
