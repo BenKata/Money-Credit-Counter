@@ -56,8 +56,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
 
         }
 
@@ -78,8 +78,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
         }
 
         private void btn_Credit_Click(object sender, EventArgs e)
@@ -106,8 +106,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
         }
 
         private void btn_10p_Click(object sender, EventArgs e)
@@ -127,8 +127,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
         }
 
         private void btn_20p_Click(object sender, EventArgs e)
@@ -148,8 +148,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
         }
 
         private void btn_50p_Click(object sender, EventArgs e)
@@ -169,8 +169,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
         }
         private void btn_1pound_Click(object sender, EventArgs e)
         {
@@ -189,11 +189,11 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
 
-        
-            
+
+
         }
         private void btn_2pound_Click(object sender, EventArgs e)
         {
@@ -212,8 +212,8 @@ namespace Money_Credit_Counter
             txt_Totalpence.Text = Total_pence.ToString(); // displays the total in pence
             txt_Totalpound.Text = Total_Pound.ToString(); // displays the total in pounds
 
-            credit = Total_pence / creditcost;
-            txt_numofcredit.Text = credit.ToString();
+            credit = Total_pence / creditcost; // Divides the total pence by the entered credit cost
+            txt_numofcredit.Text = credit.ToString(); // displays the varaible in the textbox
 
         }
         private void btn_reset_Click(object sender, EventArgs e) // Instead of resetting all the variables and textboxes to 0

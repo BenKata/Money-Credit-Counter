@@ -73,13 +73,13 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lbl_Costcredit = new System.Windows.Forms.Label();
-            this.btn_Credit = new System.Windows.Forms.Button();
             this.btn_reset = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.txt_numofcredit = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.lbl_Costcredit = new System.Windows.Forms.Label();
+            this.btn_Credit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btn_2pound)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_1pound)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_50p)).BeginInit();
@@ -603,26 +603,6 @@
             this.panel3.Size = new System.Drawing.Size(322, 154);
             this.panel3.TabIndex = 13;
             // 
-            // lbl_Costcredit
-            // 
-            this.lbl_Costcredit.AutoSize = true;
-            this.lbl_Costcredit.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Costcredit.Location = new System.Drawing.Point(274, 30);
-            this.lbl_Costcredit.Name = "lbl_Costcredit";
-            this.lbl_Costcredit.Size = new System.Drawing.Size(15, 15);
-            this.lbl_Costcredit.TabIndex = 21;
-            this.lbl_Costcredit.Text = "0";
-            // 
-            // btn_Credit
-            // 
-            this.btn_Credit.Location = new System.Drawing.Point(6, 25);
-            this.btn_Credit.Name = "btn_Credit";
-            this.btn_Credit.Size = new System.Drawing.Size(227, 27);
-            this.btn_Credit.TabIndex = 20;
-            this.btn_Credit.Text = "Click To enter the cost per credit";
-            this.btn_Credit.UseVisualStyleBackColor = true;
-            this.btn_Credit.Click += new System.EventHandler(this.btn_Credit_Click);
-            // 
             // btn_reset
             // 
             this.btn_reset.BackColor = System.Drawing.Color.Red;
@@ -670,6 +650,26 @@
             this.label8.Size = new System.Drawing.Size(39, 13);
             this.label8.TabIndex = 0;
             this.label8.Text = "Credits";
+            // 
+            // lbl_Costcredit
+            // 
+            this.lbl_Costcredit.AutoSize = true;
+            this.lbl_Costcredit.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Costcredit.Location = new System.Drawing.Point(274, 30);
+            this.lbl_Costcredit.Name = "lbl_Costcredit";
+            this.lbl_Costcredit.Size = new System.Drawing.Size(15, 15);
+            this.lbl_Costcredit.TabIndex = 21;
+            this.lbl_Costcredit.Text = "0";
+            // 
+            // btn_Credit
+            // 
+            this.btn_Credit.Location = new System.Drawing.Point(13, 29);
+            this.btn_Credit.Name = "btn_Credit";
+            this.btn_Credit.Size = new System.Drawing.Size(227, 27);
+            this.btn_Credit.TabIndex = 20;
+            this.btn_Credit.Text = "Click To enter the cost per credit";
+            this.btn_Credit.UseVisualStyleBackColor = true;
+            this.btn_Credit.Click += new System.EventHandler(this.btn_Credit_Click);
             // 
             // Form1
             // 
@@ -766,8 +766,8 @@
         private System.Windows.Forms.TextBox txt_numofcredit;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btn_Credit;
         private System.Windows.Forms.Label lbl_Costcredit;
+        private System.Windows.Forms.Button btn_Credit;
     }
 }
 
